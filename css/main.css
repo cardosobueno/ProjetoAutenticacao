@@ -1,0 +1,74 @@
+.icon {
+    width: 15px;
+    height: 15px;
+    padding-right: 4px;
+    }
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.body 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(150deg, #9c1233, #350c36);
+}
+
+.login 
+{
+    padding-top:  6000px;
+    background-color: #240b35;
+    color: #FFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 40px;
+}
+
+.login2
+{
+    color: #FFF;
+    background-color: #b648ff;
+    
+}
+.titulo
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.titulo2
+{
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+
+.cadastrar
+{
+    background-color: #9c1233;
+    border: none;
+    padding:8px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.cadastrar:hover
+{
+    background-color: #ad1b1b;
+    border: none;
+    padding:8px;
+    width: 100%;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
