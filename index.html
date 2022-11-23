@@ -10,18 +10,21 @@
 <body class="body">
         <div class="login">
             
-            
+        <form action="valida.php" method="POST">    
             <p class="titulo">FAÇA SEU LOGIN</p>
             <p>
                 <img src="img/email.png" alt="Icone_email" class="icon">
-                <input type="email" id="email" size="25" required placeholder="Insira seu e-mail..." maxlength="35">
+                <input type="email" id="email" size="25" required placeholder="Insira seu e-mail..." maxlength="35" pattern="email@email.email">
             </p>
             <p>
                 <img src="img/padlock.png" alt="Icone_senha" class="icon">
-                <input type="password" id="password" size="25" required placeholder="Insira sua senha..." maxlength="25">
+                <input type="password" id="password" size="25" required placeholder="Insira sua senha..." maxlength="25" pattern="LembreiDaSenha123">
             </p>
-            <button type="submit" onclick="location.href='index.php'" class="cadastrar"> Enviar </button>
-       
+            
+            <input type="submit" value="Login" class="cadastrar">
+
+
+        </form>
         
         </div>
 </body>
