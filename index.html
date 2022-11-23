@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Login</title>
 </head>
-<body class="body">
-        <div class="login">
-            
+<style>
+    body,html {
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-image: linear-gradient(150deg, #9c1233, #350c36);
+    }       
+
+    
+
+   
+</style>
+<body>
+    
+    <p style=" color: white; font-size: 10px; text-align: center;">Instruções de uso:</p>
+    <p style=" color: rgb(223, 223, 223); font-size: 10px; text-align: center;">Email: email@email.email</p>
+    <p style=" color: rgb(223, 223, 223); font-size: 10px; text-align: center;">Senha: LembreiDaSenha123</p>
+    <p style=" color: rgb(223, 223, 223); font-size: 10px; text-align: center;">Utilizamos Edge pois o Gugu Chromer pode apresentar chiliques de segurança</p>
+          
+        <div class="login">  
         <form action="valida.php" method="POST">    
             <p class="titulo">FAÇA SEU LOGIN</p>
             <p>
@@ -20,6 +36,8 @@
                 <img src="img/padlock.png" alt="Icone_senha" class="icon">
                 <input type="password" id="password" size="25" required placeholder="Insira sua senha..." maxlength="25" pattern="LembreiDaSenha123">
             </p>
+           
+            
             
             <input type="submit" value="Login" class="cadastrar">
 
@@ -27,6 +45,10 @@
         </form>
         
         </div>
+    
+    
+       
+   
 </body>
 
 </html>
